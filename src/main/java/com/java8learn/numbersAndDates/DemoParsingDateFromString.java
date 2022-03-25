@@ -1,0 +1,32 @@
+package com.java8learn.numbersAndDates;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+
+public class DemoParsingDateFromString {
+
+	public static void main(String[] args) {
+		// Parse a string to form a Date-Time object
+		LocalDate ld = LocalDate.parse("2014-12-28");
+		LocalDateTime ldt = LocalDateTime.parse("2014-12-28T08:44:00");
+		System.out.println("Parsed Date: " + ld);
+		System.out.println("Parsed Date-Time: " + ldt);
+
+		// Using a different Parser
+		LocalDate ld2 = LocalDate.parse("2014-12-28", DateTimeFormatter.ISO_DATE);
+		System.out.println("Different Parser: " + ld2);
+
+		// Custom Parser
+		String input = "12/28/2013";
+		try {
+			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+			LocalDate ld3 = LocalDate.parse(input, formatter);
+			System.out.println("Custom Parsed Date: " + ld3.format(formatter));
+		} catch (DateTimeParseException ex) {
+			System.out.println("Not parsable: " + ex);
+		}
+	}
+
+}

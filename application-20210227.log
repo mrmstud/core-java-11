@@ -1,0 +1,14 @@
+2021-02-27 21:10:32 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Date : 2021-02-27
+2021-02-27 21:12:09 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Date : 2021-02-27
+2021-02-27 21:12:09 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Time : 21:12:09.832
+2021-02-27 21:20:04 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Date : 2021-02-27
+2021-02-27 21:20:04 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Time : 21:20:04.111
+2021-02-27 21:20:52 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Date : 2021-02-27
+2021-02-27 21:20:52 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Time : 21:20:52.893
+2021-02-27 21:20:52 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current fromStringDate  : 1947-08-15
+2021-02-27 22:35:40 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Date : 2021-02-27
+2021-02-27 22:35:40 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current Time : 22:35:40.693
+2021-02-27 22:35:40 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current fromStringDate  : 1947-08-15
+2021-02-27 22:35:40 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current after7Days  : 2021-03-31
+2021-02-27 22:35:40 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current after7Days  : 2021-04-21
+2021-02-27 22:35:40 [main] INFO  com.java8learn.basic.java8features.LocalDateTimeDemo - Current after1Hour  : 23:35:40.709
