@@ -1,47 +1,19 @@
 package com.java8learn.basic;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+import lombok.experimental.SuperBuilder;
+
+@SuperBuilder
+@ToString
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public abstract class AbstractPerson {
-	private String fname, lname;
+	private String lname;
 	private int age;
-
-	AbstractPerson() {
-
-	}
-	
-	
-
-	public AbstractPerson(String fname, String lname, int age) {
-		super();
-		this.fname = fname;
-		this.lname = lname;
-		this.age = age;
-	}
-
-
-
-	public String getFname() {
-		return fname;
-	}
-
-	public void setFname(String fname) {
-		this.fname = fname;
-	}
-
-	public String getLname() {
-		return lname;
-	}
-
-	public void setLname(String lname) {
-		this.lname = lname;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
 	
 	public abstract void sayHello();
 	public abstract void setPersonType(String type);

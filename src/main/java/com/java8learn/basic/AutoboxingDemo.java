@@ -4,7 +4,6 @@ import java.text.MessageFormat;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.message.Message;
 
 /*
  * Consider the following method, which calculates the sum of all the positive int values. To do this, the

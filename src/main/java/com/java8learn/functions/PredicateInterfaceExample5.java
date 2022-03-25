@@ -1,8 +1,8 @@
 package com.java8learn.functions;
 // Java program to illustrate AND Predicate 
 
+import java.util.Objects;
 import java.util.function.Predicate; 
-import java.util.Objects; 
 
 class PredicateInterfaceExample5 { 
 	public static Predicate<String> hasLengthOf10 = new Predicate<String>() { 

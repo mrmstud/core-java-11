@@ -1,9 +1,10 @@
 package com.java8learn.functions;
+import java.util.ArrayList;
+import java.util.List;
 // Java program to demonstrate working of predicates 
 // on collection. The program finds all admins in an 
 // arrayList of users. 
 import java.util.function.Predicate; 
-import java.util.*; 
 class User 
 { 
 	String name, role; 
