@@ -1,5 +1,8 @@
 package com.java8learn.basic;
 
+import lombok.extern.log4j.Log4j2;
+
+@Log4j2
 public class ConcreteCustomer extends AbstractPerson {
 	String personType;
 	
@@ -16,13 +19,13 @@ public class ConcreteCustomer extends AbstractPerson {
 	@Override
 	public void sayHello() {
 		String name = getFname()+" " + getLname(); // accessing superclass methods
-		System.out.println("I am customer wirh name : " +name);
+		log.info("I am customer wirh name : " +name);
 		
 	}
 
 	@Override
 	public void setPersonType(String type) {
-		System.out.println("I am person of type : " + type);
+		log.info("I am person of type : " + type);
 	}
 
 	public String getPersonType() {
