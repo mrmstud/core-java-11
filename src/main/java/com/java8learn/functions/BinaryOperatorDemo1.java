@@ -12,11 +12,14 @@ public class BinaryOperatorDemo1 {
 		System.out.println("addTwoInt.apply(10, 20): " + addTwoInt.apply(10, 20));
 		System.out.println("multiplyTwoInt.apply(10, 20):" + multiplyTwoInt.apply(10, 20));		
 		
-		System.out.println("Returns a BinaryOperator which returns the greater of two elementsaccording to the specified Comparator:");
-		BinaryOperator<Integer> binaryOperator = BinaryOperator.maxBy(Integer::compareTo);
-		System.out.println("binaryOperator.apply(98, 11) : " + binaryOperator.apply(98, 11));
-		System.out.println("binaryOperator.apply(11, 11) : " + binaryOperator.apply(11, 11));
-		System.out.println("binaryOperator.apply(11, 98) : " + binaryOperator.apply(11, 98));
+		System.out.println("Returns a BinaryOperator which returns the greater of two elements according to the specified Comparator:");
+		BinaryOperator<Integer> binaryOperatorMaxBy = BinaryOperator.maxBy(Integer::compareTo);
+		System.out.println("binaryOperatorMaxBy.apply(98, 11) : " + binaryOperatorMaxBy.apply(98, 11));
+		System.out.println("binaryOperatorMaxBy.apply(11, 11) : " + binaryOperatorMaxBy.apply(11, 11));
+		
+		System.out.println("Returns a BinaryOperator which returns the lesser of two elements according to the specified Comparator.");
+		BinaryOperator<Integer> binaryOperatorMinBy = BinaryOperator.minBy(Integer::compareTo);
+		System.out.println("binaryOperatorMinBy.apply(11, 98) : " + binaryOperatorMinBy.apply(11, 98));
 	}
 
 }
