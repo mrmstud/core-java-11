@@ -18,7 +18,7 @@ public class ConsumerDemo2 {
 		};
 
 		// Consumer to display a list of integers
-		Consumer<List<Integer>> dispList = list -> list.stream().forEach(a -> System.out.print(a + " "));
+		Consumer<List<Integer>> dispList = list -> list.stream().forEach(System.out::println);
 
 		List<Integer> listOfIntegers = new ArrayList<Integer>();
 		listOfIntegers.add(2);
@@ -27,6 +27,5 @@ public class ConsumerDemo2 {
 
 		// using addThen()
 		modify.andThen(dispList).accept(listOfIntegers);
-		;
 	}
 }
