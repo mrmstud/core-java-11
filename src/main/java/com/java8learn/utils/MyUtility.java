@@ -4,7 +4,9 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 public class MyUtility {
 
@@ -94,5 +96,22 @@ public class MyUtility {
 	public static String printThreadInfo(Thread thread) {
 		return String.format(THREAD_INFO_MSG, thread.getName(), thread.getPriority(), thread.getState(),
 				thread.isAlive(), thread.isDaemon());
+	}
+	
+	public static Set<Employee> getAllEmployees() {
+		Employee e1 = Employee.builder().userName("Mahesh Mahalle").role("Admin").build();
+		Employee e2 = Employee.builder().userName("Yogesh Patil").role("Admin").build();
+		Employee e3 = Employee.builder().userName("Sam Kale").role("Regular").build();
+		Employee e4 = Employee.builder().userName("Grishma Roy").role("Regular").build();
+		Employee e5 = Employee.builder().userName("Parth Mahalle").role("Regular").build();
+		
+		Set<Employee> empSet = new LinkedHashSet<>();
+		empSet.add(e1);
+		empSet.add(e2);
+		empSet.add(e3);
+		empSet.add(e4);
+		empSet.add(e5);
+		
+		return empSet;
 	}
 }
