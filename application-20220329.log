@@ -1,0 +1,11 @@
+00:39:58.289 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - AbstarctClassWithoutAbstarctMethod example:
+00:39:58.291 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - Address is:Address(street=Gorakshan Road, city=Akola, state=MH)
+00:43:01.583 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - AbstarctClassWithoutAbstarctMethod example:
+00:43:01.585 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - Address is:Address(street=Gorakshan Road, city=Akola, state=MH)
+00:43:01.585 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - AbstarctClassWithoutAbstarctMethod demo DONE:
+00:44:05.897 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - AbstarctClassWithoutAbstarctMethod example:
+00:44:05.899 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - Address is:Address(street=Gorakshan Road, city=Akola, state=MH)
+00:44:05.899 [main] INFO  com.java8learn.basic.Address - AbstarctClassWithoutAbstarctMethod, protectedMethod
+00:44:05.899 [main] INFO  com.java8learn.basic.Address - AbstarctClassWithoutAbstarctMethod, defaultMethod
+00:44:05.899 [main] INFO  com.java8learn.basic.Address - AbstarctClassWithoutAbstarctMethod, publicMethod
+00:44:05.899 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - AbstarctClassWithoutAbstarctMethod demo DONE:
