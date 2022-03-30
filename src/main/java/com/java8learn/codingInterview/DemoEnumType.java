@@ -1,4 +1,4 @@
-package com.java8learn.datastructure;
+package com.java8learn.codingInterview;
 
 /**
  * Define fixed set of related constants

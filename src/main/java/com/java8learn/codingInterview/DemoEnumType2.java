@@ -1,4 +1,4 @@
-package com.java8learn.datastructure;
+package com.java8learn.codingInterview;
 
 /**
  * You need a type that can represent a fixed set of related constants, and you
