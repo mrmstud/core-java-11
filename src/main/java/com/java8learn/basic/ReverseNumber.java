@@ -22,7 +22,7 @@ public class ReverseNumber {
 			return revNum;
 		};
 		
-		LOGGER.info("Reverse of " + 123 + " is "+ reverseFun.apply(123));
+		LOGGER.info("Reverse of " + 9001 + " is "+ reverseFun.apply(9001));
 		LOGGER.info("Reverse of " + 1984 + " is "+ reverseFun.apply(1984));
 	}
 

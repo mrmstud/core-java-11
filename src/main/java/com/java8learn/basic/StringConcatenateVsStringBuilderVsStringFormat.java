@@ -5,13 +5,13 @@ public class StringConcatenateVsStringBuilderVsStringFormat {
 	private static final int COUNTER = 1_00_000;
 
 	public static void main(String[] args) {
-		/*
-		 * long time1 = System.currentTimeMillis(); usingStringConcatenation(COUNTER);
-		 * System.out.println("usingStringConcatenation " + (System.currentTimeMillis()
-		 * - time1) + " ms");
-		 */
+		
+		  long time1 = System.currentTimeMillis(); usingStringConcatenation(COUNTER);
+		  System.out.println("usingStringConcatenation " + (System.currentTimeMillis()
+		  - time1) + " ms");
+		 
 
-		long time1 = System.currentTimeMillis();
+		 time1 = System.currentTimeMillis();
 		usingStringBuilder(COUNTER);
 		System.out.println("usingStringBuilder " + (System.currentTimeMillis() - time1) + " ms");
 		

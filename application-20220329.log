@@ -9,3 +9,7 @@
 00:44:05.899 [main] INFO  com.java8learn.basic.Address - AbstarctClassWithoutAbstarctMethod, defaultMethod
 00:44:05.899 [main] INFO  com.java8learn.basic.Address - AbstarctClassWithoutAbstarctMethod, publicMethod
 00:44:05.899 [main] INFO  com.java8learn.basic.AbstarctClassWithoutAbstarctMethod - AbstarctClassWithoutAbstarctMethod demo DONE:
+14:30:00.928 [main] DEBUG com.java8learn.basic.ReverseNumber - Number passed for processing is 9001
+14:30:00.930 [main] INFO  com.java8learn.basic.ReverseNumber - Reverse of 9001 is 1009
+14:30:00.931 [main] DEBUG com.java8learn.basic.ReverseNumber - Number passed for processing is 1984
+14:30:00.931 [main] INFO  com.java8learn.basic.ReverseNumber - Reverse of 1984 is 4891
