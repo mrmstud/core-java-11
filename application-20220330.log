@@ -1,0 +1,2 @@
+23:46:25.481 [main] INFO  com.java8learn.multithreading.ThreadAttributesDemo - 
+ Thread Info:[Thread Name = main, Priority = 5, State = RUNNABLE, isAlive = true, isDeaemon = false]

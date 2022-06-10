@@ -1,6 +1,7 @@
 package com.java8learn.streams;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -23,8 +24,13 @@ public class DemoFilterMapReduce {
 		 * sortListAndPrintFirstItemInTheList(pList);
 		 */
 		
-		double hikePercentage = 7;
-		increaseSalryOfEachPersonByPercent(hikePercentage, pList);
+		/*
+		 * double hikePercentage = 7; increaseSalryOfEachPersonByPercent(hikePercentage,
+		 * pList);
+		 */
+		
+		System.out.println("printingStreamElementIfDivisibleBy3: \n");
+		printingStreamElementIfDivisibleBy3();
 	}
 
 	private static void increaseSalryOfEachPersonByPercent(double hikePercentage, List<Person> pList) {
@@ -79,4 +85,17 @@ public class DemoFilterMapReduce {
 		.forEach(System.out::println);
 	}
 
+	private static void printingStreamElementIfDivisibleBy3() {
+		{
+			  
+	        // Creating a list of Strings
+	        List<String> list = Arrays.asList("3", "6", "8", "14", "15");
+	  
+	        // Using Stream mapToInt(ToIntFunction mapper)
+	        // and displaying the corresponding IntStream
+	        list.stream().map(num -> Integer.parseInt(num))
+	                     .filter(num -> num % 3 == 0)
+	                     .forEach(System.out::println);
+	    }
+	}
 }
