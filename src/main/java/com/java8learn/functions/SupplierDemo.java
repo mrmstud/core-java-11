@@ -6,13 +6,13 @@ public class SupplierDemo {
 
 	public static void main(String[] args) {
 		//simpleConsumerDemo
-		simpleConsumerDemo();
+		simpleSupplierDemo();
 	}
 
 	/**
 	 * 
 	 */
-	private static void simpleConsumerDemo() {
+	private static void simpleSupplierDemo() {
 		// This function returns a random value.
 		Supplier<Double> randomVal = ()->Math.random(); // no input arg but op is Double
 		// Print the random value using get()
